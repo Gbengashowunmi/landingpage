@@ -65,7 +65,6 @@ img{
 
 a{
     cursor: pointer;
-}
 
 li{
     width: max-content;
@@ -117,11 +116,14 @@ article{
 }
 a{
     text-decoration:none;
+    color: Black
     cursor:pointer;
+
 }
 
 a:hover{
-    color: white;
+    color: rgb(237, 219, 243);
+
 }
 .content{
     margin-bottom: 40px;
