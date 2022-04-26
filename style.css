@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(178, 24, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(26, 2, 34);
+    padding: 10px;
+    position: fixed;
+}
+
+ul{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 20px;
+}
+
+img{
+    width: 7%;
+    margin-left: 40px;
+}
+
+li{
+    width: max-content;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+main{
+    margin: 100px 0 20px 0;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+button{
+    width: fit-content;
+    height: 30px;
+    padding: 0 15px 0 15px;
+    border: none;
+    background-color: rgb(26, 2, 34);
+    color: white;
+    cursor: pointer;
+}
+
+article{
+    width: 80%;
+    /* background-color: green; */
+}
+
+.content{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+video{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+    height: auto;
+}
+
+section{
+    padding-top: 40px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.container{
+    border: solid 2px black;
+    text-align: center;
+    height: fit-content;
+    border-radius: 8px;
+    
+}
+
+.title{
+    width: 100%;
+    background-color: rgb(220, 180, 227);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.price, .price-description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    width: 73%;
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: left;
+    background-color: rgb(220, 180, 227);
+    margin-top: 40px;
+}
+
+.footer-content{
+    margin: 20px;
+    
+}
+
+.ul-footer{
+    width: 80%;
+    padding: 10px;
+}
+
+.copyright{
+    color: rgb(65, 63, 63);
+}
