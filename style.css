@@ -115,7 +115,14 @@ article{
     justify-content: center;
     align-items: center;
 }
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
 
+a:hover{
+    color: white;
+}
 .content{
     margin-bottom: 40px;
     display: flex;
